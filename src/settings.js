@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: 'Suglider System',
 
   /**
    * @type {boolean} true | false

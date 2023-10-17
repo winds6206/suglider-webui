@@ -119,5 +119,10 @@ module.exports = {
           config.optimization.runtimeChunk('single')
         }
       )
+  },
+
+  // disable ESLint
+  chainWebpack: config => {
+    config.module.rules.delete('eslint');
   }
 }
